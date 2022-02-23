@@ -1,0 +1,8 @@
+num=[] 
+n=int(input("Enter the number of elements in list: "))
+for i in range(1, n + 1):
+    element=int(input("Enter elements: "))
+    num.append(element)
+num.sort()
+print("Largest element is:",num[n-1])
+print("Smallest element is:",num[0])
