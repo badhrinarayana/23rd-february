@@ -1,0 +1,10 @@
+num = int(input("Enter the integer number: "))  
+ 
+revs_num = 0  
+  
+while (num > 0):  
+    remainder = num % 10  
+    revs_num = (revs_num * 10) + remainder  
+    num = num // 10  
+
+print("The reverse number is : {}".format(revs_num))
